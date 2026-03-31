@@ -1,6 +1,6 @@
 # Hi, I'm Nirzor 👋
 
-🎓 Industrial Information Technology Student at LAB University of Applied Scineces
+🎓 Industrial Information Technology Student at LAB University of Applied Sciences
 🔌 Aspiring Embedded Systems & IoT Engineer
 ⚡ Focused on building real-world embedded and IoT systems
 
