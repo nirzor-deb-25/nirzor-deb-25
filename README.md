@@ -1,91 +1,47 @@
 # Hi, I'm Nirzor 👋
 
-🎓 Industrial Information Technology Student at LAB University of Applied Sciences
+🎓 Industrial Information Technology Student @ LAB University of Applied Sciences
 🔌 Aspiring Embedded Systems & IoT Engineer
-⚡ Focused on building real-world embedded and IoT systems
+⚡ Currently focused on bare-metal STM32 programming, RTOS, and IoT protocols
 
 ---
 
-## 🚀 My Embedded Systems Roadmap
+## 🧭 About Me
 
-I am following a structured roadmap to become a professional Embedded Systems Engineer:
-
-### 🔹 Phase 1 — Foundation
-
-* C Programming (Pointers, Memory, Advanced Concepts)
-* Embedded C Programming
-* Bare-metal Programming
-* ARM Cortex-M (STM32, CMSIS)
-* Build Systems (Makefile, GNU Make)
-
-### 🔹 Phase 2 — MCU & Peripherals
-
-* GPIO, Timers, PWM, DMA
-* Communication Protocols (UART, I2C, SPI, CAN)
-* Interrupt-driven Programming
-* STM32 HAL Development
-
-### 🔹 Phase 3 — Drivers & Debugging
-
-* Embedded Driver Development
-* Bootloader Development
-* Debugging (JTAG, SWD, GDB)
-
-### 🔹 Phase 4 — RTOS
-
-* FreeRTOS (Tasks, Scheduling)
-* Inter-task Communication
-* RTOS Debugging
-
-### 🔹 Phase 5 — IoT & Communication
-
-* MQTT Protocol
-* WiFi (ESP32, ESP8266)
-* Node-RED Integration
-* MicroPython for IoT
-
-### 🔹 Phase 6 — Embedded Linux
-
-* Linux for Embedded Systems
-* Device Drivers
-* Raspberry Pi Development
-* Yocto Project
-
-### 🔹 Phase 7 — PCB Design
-
-* KiCad / Eagle
-* Circuit Design & Prototyping
-
-### 🔹 Phase 8 — Cloud & DevOps
-
-* AWS IoT / Azure IoT
-* Docker for Embedded Systems
-
-### 🔹 Future Goals
-
-* Embedded Security & OTA Updates
-* Advanced Linux & BSP Development
-* FPGA & SoC Design
-* Real-time DSP Systems
+I build embedded systems from the register level up — writing bare-metal STM32 drivers, working with FreeRTOS, and connecting devices to the cloud via IoT protocols. I learn by building: every concept I study turns into a hands-on project, documented and pushed here.
 
 ---
 
 ## 🛠️ Tech Stack
 
-* 💻 Languages: C, C++
-* 🔧 Embedded: STM32, ARM Cortex-M (learning)
-* ⚡ IoT: ESP32, MQTT (learning)
-* 🧰 Tools: Git, VS Code, PlatformIO
-* 🧪 Hardware: Sensors, Microcontrollers (beginner level)
+**Languages:** C, Embedded C, C++, Assembly (basic, ARM Cortex-M)
+
+**Microcontrollers:** STM32 (F4/F7 series), ARM Cortex-M3/M4/M7
+
+**Peripherals:** GPIO · Timers/PWM · DMA · ADC · CAN · Interrupts/NVIC
+
+**Protocols:** UART/USART · I2C · SPI · I3C · Ethernet
+
+**RTOS:** FreeRTOS
+
+**IoT:** ESP32 · MQTT · Node-RED
+
+**Tools:** Git & GitHub · VS Code · PlatformIO · STM32CubeIDE · GDB · JTAG/SWD
+
+**Hardware:** STM32 Discovery/Nucleo boards, sensors, actuators
 
 ---
 
-## 📌 Projects
+## 📌 Featured Projects
 
+| Project | Description | Status |
+|---|---|---|
+| **Bare-Metal GPIO/PWM Driver** | Register-level GPIO and PWM driver for STM32, written without HAL | 🔨 In Progress |
+| **Custom UART Bootloader** | A bootloader built from scratch that flashes new firmware over UART | 🔜 Planned |
+| **Multi-Task FreeRTOS Sensor System** | Sensor reading (I2C) + LED control (PWM) + UART command interface, synchronized via FreeRTOS queues and semaphores | 🔜 Planned |
+| **ESP32 IoT Temperature Logger** | ESP32-based sensor logger publishing live data to an MQTT broker | 🔜 Planned |
 
----
-
-## 🌱 Current Focus
+*(Each project gets its own repo with a full README, build/flash instructions, and a demo.)*
 
 
 
@@ -93,10 +49,5 @@ I am following a structured roadmap to become a professional Embedded Systems En
 
 ## 📫 Contact Me
 
-* 📧 Email: [nirzordeb79@gmail.com](mailto:nirzordeb79@gmail.com)
-* 💼 LinkedIn: 
-
----
-
-⭐ *This GitHub documents my journey from beginner to Embedded Systems & IoT Specialist.*
-
+- 📧 Email: [nirzordeb79@gmail.com](mailto:nirzordeb79@gmail.com)
+- 💼 LinkedIn: *add your profile link here*
