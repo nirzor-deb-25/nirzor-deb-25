@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./firmware-banner.gif" alt="Nirzor Deb — Embedded Systems and IoT. Animated rotating STM32-style chip. Open to internship and thesis opportunities in Finland." width="100%" />
+  <img src="./firmware-banner.gif" alt="Nirzor Deb — Embedded Systems and IoT. Animated detailed STM32F407 Discovery board reconstruction. Open to internship and thesis opportunities in Finland." width="100%" />
 </p>
 
 <p align="center">
@@ -13,12 +13,17 @@ Industrial Information Technology student at LAB University of Applied Sciences,
 Seeking embedded software internships and thesis opportunities.</p>
 
 <p align="center">
-<a href="#about">About</a> · <a href="#tech-stack">Tech Stack</a> · <a href="#selected-projects">Projects</a> · <a href="#learning-goals">Learning Goals</a> · <a href="#opportunities">Contact</a>
+<a href="#about"><img src="./nav-about.gif" alt="About" width="18%" /></a>
+<a href="#tech-stack"><img src="./nav-tech-stack.gif" alt="Tech Stack" width="18%" /></a>
+<a href="#selected-projects"><img src="./nav-selected-projects.gif" alt="Projects" width="18%" /></a>
+<a href="#learning-goals"><img src="./nav-learning-goals.gif" alt="Learning Goals" width="18%" /></a>
+<a href="#opportunities"><img src="./nav-opportunities.gif" alt="Contact" width="18%" /></a>
 </p>
 
 ---
 
-## About
+<a name="about"></a>
+<h2><img src="./heading-about.gif" alt="About" width="100%" /></h2>
 
 <table>
 <tr>
@@ -36,7 +41,7 @@ Seeking embedded software internships and thesis opportunities.</p>
 </tr>
 </table>
 
-<p align="center"><img src="./about-3d.gif" alt="Animated floating processor above a rotating circuit board. Build, debug, document." width="100%" /></p>
+<p align="center"><img src="./about-3d.gif" alt="Animated STM32F407 Discovery board with USB connectors, pin headers, MCU, buttons, and audio jack." width="100%" /></p>
 
 | My focus | Portfolio examples |
 | --- | --- |
@@ -44,9 +49,10 @@ Seeking embedded software internships and thesis opportunities.</p>
 | Investigate firmware behavior | GDB/SWD fault investigation, captured exception context, and allocator tests |
 | Build toward intelligent devices | Sensor integration, real-time projects, and on-device machine learning |
 
-## Tech Stack
+<a name="tech-stack"></a>
+<h2><img src="./heading-tech-stack.gif" alt="Tech Stack" width="100%" /></h2>
 
-<p align="center"><img src="./tech-3d.gif" alt="Animated floating firmware layers alongside C, C++, Python, STM32, FreeRTOS, GDB, and GCC." width="100%" /></p>
+<p align="center"><img src="./tech-3d.gif" alt="Animated STM32F407 Discovery board alongside firmware tools and skills." width="100%" /></p>
 
 | Category | Hands-on experience |
 | --- | --- |
@@ -69,7 +75,8 @@ Seeking embedded software internships and thesis opportunities.</p>
 
 </details>
 
-## Selected Projects
+<a name="selected-projects"></a>
+<h2><img src="./heading-selected-projects.gif" alt="Selected Projects" width="100%" /></h2>
 
 | Project | Focus | What to explore |
 | --- | --- | --- |
@@ -108,7 +115,8 @@ Seeking embedded software internships and thesis opportunities.</p>
 
 </details>
 
-## Learning Goals
+<a name="learning-goals"></a>
+<h2><img src="./heading-learning-goals.gif" alt="Learning Goals" width="100%" /></h2>
 
 These are the next areas I want to develop through practical projects.
 
@@ -119,7 +127,8 @@ These are the next areas I want to develop through practical projects.
 | **Embedded Linux** | Cross-compile C applications and explore Raspberry Pi GPIO |
 | **Data quality** | Build a room digital twin with sensor noise handling and quality checks |
 
-## Opportunities
+<a name="opportunities"></a>
+<h2><img src="./heading-opportunities.gif" alt="Opportunities" width="100%" /></h2>
 
 I am seeking an **embedded software / embedded systems internship or thesis opportunity in Finland**. My interests include embedded C, STM32 firmware, sensor integration, real-time systems, and IoT.
 
@@ -130,4 +139,11 @@ If your team is working in these areas, I would be happy to discuss how I can co
   <a href="https://www.linkedin.com/in/nirzor-deb-opi-635846336/"><img src="./linkedin.svg" alt="Connect on LinkedIn" width="160" /></a>
 </p>
 
-<p align="center"><br/><sub>Build. Debug. Understand.</sub></p>
+<p align="center"><a href="mailto:nirzordeb79@gmail.com">nirzordeb79@gmail.com</a><br/><sub>Build. Debug. Understand.</sub></p>
+
+<details>
+<summary>Visual credits</summary>
+
+Board animation: a custom 3D reconstruction based on the STM32F407G-DISC1 layout in [STMicroelectronics UM1472](https://www.st.com/resource/en/user_manual/um1472-stm32f4-discovery-stmicroelectronics.pdf). Component placement and geometry are simplified for this portfolio; this is not a manufacturing model.
+
+</details>
