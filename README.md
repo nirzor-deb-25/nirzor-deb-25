@@ -12,27 +12,64 @@
 Industrial Information Technology student at LAB University of Applied Sciences, Finland.<br/>
 Seeking embedded software internships and thesis opportunities.</p>
 
+<p align="center">
+<a href="#about">About</a> · <a href="#tech-stack">Tech Stack</a> · <a href="#selected-projects">Projects</a> · <a href="#learning-goals">Learning Goals</a> · <a href="#opportunities">Contact</a>
+</p>
+
 ---
 
-### `01 / ABOUT`
+## About
 
-I am an engineering student focused on **Embedded Systems and IoT**, building practical projects with C and STM32. I enjoy understanding how hardware and software work together, from direct register access to real-time firmware.
+<table>
+<tr>
+<td width="35%" align="center" valign="middle">
+<img src="./portrait-hologram.gif" alt="Animated neon-green holographic portrait of Nirzor, based on his illustrated photo." width="280" /><br/>
+<strong>NIRZOR DEB</strong><br/>
+<sub>Embedded Systems &amp; IoT · Finland</sub>
+</td>
+<td width="65%" valign="middle">
+<p>I am an engineering student at <strong>LAB University of Applied Sciences, Finland</strong>, focused on <strong>Embedded Systems and IoT</strong>.</p>
+<p>I build practical projects with C and STM32 to understand how firmware, hardware, and sensor data work together.</p>
+<p>My portfolio covers bare-metal firmware, memory management, bootloaders, FreeRTOS, and Cortex-M4 debugging. My recent projects connect Python model training with embedded C deployment for motion classification and temperature forecasting.</p>
+<p><strong>Seeking internship and thesis opportunities in Finland.</strong></p>
+</td>
+</tr>
+</table>
 
-My portfolio covers sensor interfaces, memory management, UART bootloaders, FreeRTOS, and Cortex-M4 debugging with GDB and SWD.
+<p align="center"><img src="./about-3d.gif" alt="Animated floating processor above a rotating circuit board. Build, debug, document." width="100%" /></p>
 
-My recent projects explore **motion classification and temperature forecasting on STM32**, connecting Python model training with embedded C deployment and on-device verification.
+| My focus | Portfolio examples |
+| --- | --- |
+| Understand the hardware | Direct register access, GPIO, timers, UART, DMA, and SPI sensor interfacing |
+| Investigate firmware behavior | GDB/SWD fault investigation, captured exception context, and allocator tests |
+| Build toward intelligent devices | Sensor integration, real-time projects, and on-device machine learning |
 
-```c
-/* My approach to learning embedded systems */
-while (learning) {
-    build();
-    measure();
-    debug();
-    document();
-}
-```
+## Tech Stack
 
-### `02 / SELECTED PROJECTS`
+<p align="center"><img src="./tech-3d.gif" alt="Animated floating firmware layers alongside C, C++, Python, STM32, FreeRTOS, GDB, and GCC." width="100%" /></p>
+
+| Category | Hands-on experience |
+| --- | --- |
+| **Programming** | C, Embedded C, C++ for Arduino; Python for ML training workflows |
+| **Microcontroller** | STM32F407 / ARM Cortex-M4; register-level programming without HAL |
+| **Peripherals** | GPIO, interrupts, timers/PWM, UART, DMA, SPI sensor interfacing |
+| **Real-time firmware** | FreeRTOS projects, producer-consumer patterns, cooperative scheduling |
+| **Boot & build** | UART firmware updates, bootloader projects, Makefiles, arm-none-eabi-gcc |
+| **Debugging** | ST-LINK, SWD, GDB, Cortex-M4 HardFault investigation |
+| **Memory management** | Pool/heap allocators, splitting/coalescing, corruption detection, testing |
+| **Embedded ML** | Motion classification, ridge-regression forecasting, on-device verification |
+| **Development tools** | STM32CubeIDE, Git, GitHub, Wokwi |
+
+<details>
+<summary><strong>Hardware available for further projects</strong></summary>
+
+- STM32F407G-DISC1 and NUCLEO-F439ZI.
+- ESP32 development boards and Arduino Uno.
+- Raspberry Pi 3B+ and Olimex MOD-BME280 sensor module.
+
+</details>
+
+## Selected Projects
 
 | Project | Focus | What to explore |
 | --- | --- | --- |
@@ -43,22 +80,9 @@ while (learning) {
 | [STM32 FreeRTOS Sensor System](https://github.com/nirzor-deb-25/stm32_freertos_sensor_system) | Real-time firmware | A sensor-system project exploring FreeRTOS on STM32. |
 | [STM32 Multi-Protocol Sensor Hub](https://github.com/nirzor-deb-25/stm32_multiprotocol_sensor_hub) | Sensor interfaces | A sensor-hub project exploring multiple communication interfaces on STM32. |
 
-### `03 / TECH STACK`
-
-| Area | Hands-on work |
-| --- | --- |
-| Languages | C, Embedded C, C++ for Arduino; Python for embedded ML training workflows |
-| Microcontroller | STM32F407, ARM Cortex-M4, register-level programming without HAL |
-| Peripherals & interfaces | GPIO, interrupts, timers/PWM, UART, DMA; SPI sensor interfacing and multi-protocol projects |
-| Real-time systems | FreeRTOS projects, producer-consumer patterns, cooperative scheduling |
-| Firmware & builds | UART firmware updates, bootloader projects, multi-file C projects, handwritten Makefiles |
-| Debugging | ST-LINK/SWD, GDB, Cortex-M4 HardFault investigation |
-| Memory management | Pool and heap allocators, split/coalesce, corruption detection, allocator testing |
-| Embedded ML | Motion classification, ridge-regression temperature forecasting, on-device verification |
-| Tools | STM32CubeIDE, arm-none-eabi-gcc, Git, GitHub, Wokwi |
-
 <details>
-<summary><strong>04 / More firmware projects — expand</strong></summary>
+
+<summary><strong>Explore the rest of my firmware projects</strong></summary>
 
 **Drivers, scheduling & firmware updates**
 
@@ -84,18 +108,26 @@ while (learning) {
 
 </details>
 
-### `05 / LEARNING GOALS`
+## Learning Goals
 
-- ESP32 sensor logging over MQTT.
-- Node-RED device control and visualization.
-- Ethernet connectivity and Raspberry Pi embedded Linux.
-- A room digital twin focused on sensor data quality and noise handling.
+These are the next areas I want to develop through practical projects.
 
-### `06 / OPPORTUNITIES`
+| Direction | Next project goal |
+| --- | --- |
+| **Connected devices** | Publish ESP32 sensor measurements over MQTT |
+| **Visualization & control** | Create a Node-RED dashboard for remote device control |
+| **Embedded Linux** | Cross-compile C applications and explore Raspberry Pi GPIO |
+| **Data quality** | Build a room digital twin with sensor noise handling and quality checks |
 
-I am looking for an **internship or thesis opportunity in Finland** involving embedded C, STM32, real-time systems, sensor integration, or IoT.
+## Opportunities
 
----
+I am seeking an **embedded software / embedded systems internship or thesis opportunity in Finland**. My interests include embedded C, STM32 firmware, sensor integration, real-time systems, and IoT.
 
-<p align="center"><strong>Let's build reliable embedded systems.</strong><br/>
-<a href="mailto:nirzordeb79@gmail.com">nirzordeb79@gmail.com</a> · <a href="https://www.linkedin.com/in/nirzor-deb-opi-635846336/">LinkedIn</a></p>
+If your team is working in these areas, I would be happy to discuss how I can contribute and learn.
+
+<p align="center">
+  <a href="mailto:nirzordeb79@gmail.com"><img src="./email.svg" alt="Email Nirzor" width="160" /></a>
+  <a href="https://www.linkedin.com/in/nirzor-deb-opi-635846336/"><img src="./linkedin.svg" alt="Connect on LinkedIn" width="160" /></a>
+</p>
+
+<p align="center"><a href="mailto:nirzordeb79@gmail.com">nirzordeb79@gmail.com</a><br/><sub>Build. Debug. Understand.</sub></p>
