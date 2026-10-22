@@ -1,22 +1,36 @@
-# Hi, I'm Nirzor Deb
+<p align="center">
+  <img src="./assets/firmware-banner.gif" alt="Nirzor Deb — Embedded Systems and IoT. Animated rotating STM32-style chip. Open to internship and thesis opportunities in Finland." width="100%" />
+</p>
 
-### Embedded Systems & IoT | STM32 Firmware | C
+<p align="center">
+  <a href="https://www.linkedin.com/in/nirzor-deb-opi-635846336/"><img src="./assets/linkedin.svg" alt="LinkedIn" width="160" /></a>
+  <a href="mailto:nirzordeb79@gmail.com"><img src="./assets/email.svg" alt="Email" width="160" /></a>
+  <a href="https://github.com/nirzor-deb-25?tab=repositories"><img src="./assets/repos.svg" alt="Browse repositories" width="160" /></a>
+</p>
 
-Industrial Information Technology student at **LAB University of Applied Sciences, Finland**, focusing on Embedded Systems and IoT.
+<p align="center"><strong>STM32 firmware · Bare-metal C · Real-time systems · Embedded ML</strong><br/>
+Industrial Information Technology student at LAB University of Applied Sciences, Finland.<br/>
+Seeking embedded software internships and thesis opportunities.</p>
 
-**Seeking embedded software / embedded systems internships and thesis opportunities in Finland.**
+---
 
-[LinkedIn](https://www.linkedin.com/in/nirzor-deb-opi-635846336/) · [Email](mailto:nirzordeb79@gmail.com) · [Repositories](https://github.com/nirzor-deb-25?tab=repositories)
+### `01 / ABOUT`
 
-## About me
+I build firmware to understand what happens between the code and the hardware. My work spans register-level STM32 programming, memory allocators, UART bootloaders, Cortex-M4 fault investigation, and FreeRTOS projects.
 
-I build embedded projects to understand how firmware works, from direct register access and memory management to real-time tasks, sensor interfaces, and on-device machine learning.
+My recent projects explore **motion classification and temperature forecasting on STM32**, connecting Python model training with embedded C deployment and on-device verification.
 
-My portfolio includes bare-metal STM32 development, UART bootloaders, Cortex-M4 fault investigation, FreeRTOS projects, and sensor-based applications. My recent work explores motion classification and temperature forecasting on STM32, connecting Python model development with embedded C deployment.
+```c
+/* My approach to learning embedded systems */
+while (learning) {
+    build();
+    measure();
+    debug();
+    document();
+}
+```
 
-I am working toward an embedded software engineering role where I can develop reliable firmware, investigate hardware/software issues, and build connected devices.
-
-## Selected projects
+### `02 / SELECTED PROJECTS`
 
 | Project | Focus | What to explore |
 | --- | --- | --- |
@@ -27,7 +41,7 @@ I am working toward an embedded software engineering role where I can develop re
 | [STM32 FreeRTOS Sensor System](https://github.com/nirzor-deb-25/stm32_freertos_sensor_system) | Real-time firmware | My STM32 sensor-system project using FreeRTOS. |
 | [STM32 Multi-Protocol Sensor Hub](https://github.com/nirzor-deb-25/stm32_multiprotocol_sensor_hub) | Sensor interfaces | My STM32 project focused on a sensor hub using multiple communication protocols. |
 
-## Technical experience
+### `03 / TECH STACK`
 
 | Area | Hands-on work |
 | --- | --- |
@@ -41,7 +55,8 @@ I am working toward an embedded software engineering role where I can develop re
 | Embedded ML | Motion classification, ridge-regression temperature forecasting, on-device verification |
 | Tools | STM32CubeIDE, arm-none-eabi-gcc, Git, GitHub, Wokwi |
 
-## More firmware projects
+<details>
+<summary><strong>04 / More firmware projects — expand</strong></summary>
 
 **Drivers, scheduling & firmware updates**
 
@@ -65,16 +80,16 @@ I am working toward an embedded software engineering role where I can develop re
 - [Arduino Projects](https://github.com/nirzor-deb-25/Arduino-Projects-) — Wokwi projects covering sensors, motors, displays, and embedded fundamentals.
 - [NFC-Based Attendance System](https://github.com/nirzor-deb-25/NFC-BASED-ATTENDANCE-SYSTEM)
 
-## Next learning goals
+</details>
 
-- Build an ESP32 temperature logger that publishes sensor data over MQTT.
-- Add remote device control and visualization with Node-RED.
-- Explore Ethernet connectivity and embedded Linux on Raspberry Pi.
-- Develop a room digital twin with a focus on sensor data quality and noise handling.
+### `05 / NEXT ON MY BENCH`
 
-## Let's connect
+- ESP32 sensor logging over MQTT.
+- Node-RED device control and visualization.
+- Ethernet connectivity and Raspberry Pi embedded Linux.
+- A room digital twin focused on sensor data quality and noise handling.
 
-I'm interested in internship and thesis opportunities involving **embedded C, STM32 firmware, real-time systems, sensor integration, and IoT**.
+---
 
-**Email:** [nirzordeb79@gmail.com](mailto:nirzordeb79@gmail.com)  
-**LinkedIn:** [Nirzor Deb Opi](https://www.linkedin.com/in/nirzor-deb-opi-635846336/)
+<p align="center"><strong>Let's build reliable embedded systems.</strong><br/>
+<a href="mailto:nirzordeb79@gmail.com">nirzordeb79@gmail.com</a> · <a href="https://www.linkedin.com/in/nirzor-deb-opi-635846336/">LinkedIn</a></p>
