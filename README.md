@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="./assets/firmware-banner.gif" alt="Nirzor Deb — Embedded Systems and IoT. Animated rotating STM32-style chip. Open to internship and thesis opportunities in Finland." width="100%" />
+  <img src="./firmware-banner.gif" alt="Nirzor Deb — Embedded Systems and IoT. Animated rotating STM32-style chip. Open to internship and thesis opportunities in Finland." width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nirzor-deb-opi-635846336/"><img src="./assets/linkedin.svg" alt="LinkedIn" width="160" /></a>
-  <a href="mailto:nirzordeb79@gmail.com"><img src="./assets/email.svg" alt="Email" width="160" /></a>
-  <a href="https://github.com/nirzor-deb-25?tab=repositories"><img src="./assets/repos.svg" alt="Browse repositories" width="160" /></a>
+  <a href="https://www.linkedin.com/in/nirzor-deb-opi-635846336/"><img src="./linkedin.svg" alt="LinkedIn" width="160" /></a>
+  <a href="mailto:nirzordeb79@gmail.com"><img src="./email.svg" alt="Email" width="160" /></a>
+  <a href="https://github.com/nirzor-deb-25?tab=repositories"><img src="./repos.svg" alt="Browse repositories" width="160" /></a>
 </p>
 
 <p align="center"><strong>STM32 firmware · Bare-metal C · Real-time systems · Embedded ML</strong><br/>
@@ -16,7 +16,9 @@ Seeking embedded software internships and thesis opportunities.</p>
 
 ### `01 / ABOUT`
 
-I build firmware to understand what happens between the code and the hardware. My work spans register-level STM32 programming, memory allocators, UART bootloaders, Cortex-M4 fault investigation, and FreeRTOS projects.
+I am an engineering student focused on **Embedded Systems and IoT**, building practical projects with C and STM32. I enjoy understanding how hardware and software work together, from direct register access to real-time firmware.
+
+My portfolio covers sensor interfaces, memory management, UART bootloaders, FreeRTOS, and Cortex-M4 debugging with GDB and SWD.
 
 My recent projects explore **motion classification and temperature forecasting on STM32**, connecting Python model training with embedded C deployment and on-device verification.
 
@@ -38,8 +40,8 @@ while (learning) {
 | [STM32 ThermalPredict](https://github.com/nirzor-deb-25/stm32-thermalpredict) | Sensor data & forecasting | BME280 temperature measurements, ridge regression, and on-device verification. |
 | [Memory Allocators in C](https://github.com/nirzor-deb-25/embedded-c-memory-allocator-) | Memory management | Fixed-size pools, heap splitting/coalescing, and a hardened allocator with tests and benchmarks. |
 | [STM32 HardFault Debugging](https://github.com/nirzor-deb-25/stm32_hardfault_debug) | Cortex-M4 debugging | GDB/SWD investigation, captured exception context, and a verified alignment-safe fix. |
-| [STM32 FreeRTOS Sensor System](https://github.com/nirzor-deb-25/stm32_freertos_sensor_system) | Real-time firmware | My STM32 sensor-system project using FreeRTOS. |
-| [STM32 Multi-Protocol Sensor Hub](https://github.com/nirzor-deb-25/stm32_multiprotocol_sensor_hub) | Sensor interfaces | My STM32 project focused on a sensor hub using multiple communication protocols. |
+| [STM32 FreeRTOS Sensor System](https://github.com/nirzor-deb-25/stm32_freertos_sensor_system) | Real-time firmware | A sensor-system project exploring FreeRTOS on STM32. |
+| [STM32 Multi-Protocol Sensor Hub](https://github.com/nirzor-deb-25/stm32_multiprotocol_sensor_hub) | Sensor interfaces | A sensor-hub project exploring multiple communication interfaces on STM32. |
 
 ### `03 / TECH STACK`
 
@@ -82,12 +84,16 @@ while (learning) {
 
 </details>
 
-### `05 / NEXT ON MY BENCH`
+### `05 / LEARNING GOALS`
 
 - ESP32 sensor logging over MQTT.
 - Node-RED device control and visualization.
 - Ethernet connectivity and Raspberry Pi embedded Linux.
 - A room digital twin focused on sensor data quality and noise handling.
+
+### `06 / OPPORTUNITIES`
+
+I am looking for an **internship or thesis opportunity in Finland** involving embedded C, STM32, real-time systems, sensor integration, or IoT.
 
 ---
 
