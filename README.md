@@ -1,99 +1,80 @@
-# Nirzor Deb
+# Hi, I'm Nirzor Deb
 
-**Embedded Systems & IoT** | Industrial Information Technology student at LAB University of Applied Sciences, Finland
+### Embedded Systems & IoT | STM32 Firmware | C
 
-Open to internship and thesis opportunities in embedded systems and IoT in Finland.
+Industrial Information Technology student at **LAB University of Applied Sciences, Finland**, focusing on Embedded Systems and IoT.
 
-[LinkedIn](https://www.linkedin.com/in/nirzor-deb-opi-635846336) | [Email](mailto:nirzordeb79@gmail.com)
+**Seeking embedded software / embedded systems internships and thesis opportunities in Finland.**
 
----
+[LinkedIn](https://www.linkedin.com/in/nirzor-deb-opi-635846336/) · [Email](mailto:nirzordeb79@gmail.com) · [Repositories](https://github.com/nirzor-deb-25?tab=repositories)
 
-## About
+## About me
 
-I write firmware from the register level up. My work so far covers bare-metal STM32 programming (GPIO, timers/PWM, UART, DMA), a bootloader that updates firmware over UART, and a custom memory allocator in C. Every concept I study becomes a hands-on project that I document and publish here. I am now moving on to drivers, RTOS and IoT connectivity.
+I build embedded projects to understand how firmware works, from direct register access and memory management to real-time tasks, sensor interfaces, and on-device machine learning.
 
----
+My portfolio includes bare-metal STM32 development, UART bootloaders, Cortex-M4 fault investigation, FreeRTOS projects, and sensor-based applications. My recent work explores motion classification and temperature forecasting on STM32, connecting Python model development with embedded C deployment.
 
-## Technical Skills
+I am working toward an embedded software engineering role where I can develop reliable firmware, investigate hardware/software issues, and build connected devices.
 
-**Hands-on experience**
+## Selected projects
 
-- **Languages:** C, Embedded C, C++ (Arduino)
-- **Microcontroller:** STM32F407 (ARM Cortex-M4), register-level programming without HAL
-- **Peripherals:** GPIO, timers/PWM, UART, DMA
-- **Firmware:** custom bootloader (firmware update over UART), Makefile-based builds with command-line flashing
-- **Memory management:** custom allocators with corruption detection (buffer overrun, double free, invalid free)
-- **Tools:** STM32CubeIDE, ST-LINK (SWD) debugging, arm-none-eabi-gcc, Git and GitHub, Wokwi
+| Project | Focus | What to explore |
+| --- | --- | --- |
+| [STM32 MotionSense](https://github.com/nirzor-deb-25/stm32-motionsense) | Bare-metal firmware & embedded ML | Motion classification on STM32, Python training, and deployment verification. |
+| [STM32 ThermalPredict](https://github.com/nirzor-deb-25/stm32-thermalpredict) | Sensor data & forecasting | BME280 temperature measurements, ridge regression, and on-device verification. |
+| [Memory Allocators in C](https://github.com/nirzor-deb-25/embedded-c-memory-allocator-) | Memory management | Fixed-size pools, heap splitting/coalescing, and a hardened allocator with tests and benchmarks. |
+| [STM32 HardFault Debugging](https://github.com/nirzor-deb-25/stm32_hardfault_debug) | Cortex-M4 debugging | GDB/SWD investigation, captured exception context, and a verified alignment-safe fix. |
+| [STM32 FreeRTOS Sensor System](https://github.com/nirzor-deb-25/stm32_freertos_sensor_system) | Real-time firmware | My STM32 sensor-system project using FreeRTOS. |
+| [STM32 Multi-Protocol Sensor Hub](https://github.com/nirzor-deb-25/stm32_multiprotocol_sensor_hub) | Sensor interfaces | My STM32 project focused on a sensor hub using multiple communication protocols. |
 
-**Currently learning**
+## Technical experience
 
-- FreeRTOS (tasks, queues, semaphores)
-- I2C and SPI driver development
-- ESP32, MQTT and Node-RED
-- Ethernet and embedded Linux basics
+| Area | Hands-on work |
+| --- | --- |
+| Languages | C, Embedded C, C++ for Arduino; Python for embedded ML training workflows |
+| Microcontroller | STM32F407, ARM Cortex-M4, register-level programming without HAL |
+| Peripherals & interfaces | GPIO, interrupts, timers/PWM, UART, DMA; SPI sensor interfacing and multi-protocol projects |
+| Real-time systems | FreeRTOS projects, producer-consumer patterns, cooperative scheduling |
+| Firmware & builds | UART firmware updates, bootloader projects, multi-file C projects, handwritten Makefiles |
+| Debugging | ST-LINK/SWD, GDB, Cortex-M4 HardFault investigation |
+| Memory management | Pool and heap allocators, split/coalesce, corruption detection, allocator testing |
+| Embedded ML | Motion classification, ridge-regression temperature forecasting, on-device verification |
+| Tools | STM32CubeIDE, arm-none-eabi-gcc, Git, GitHub, Wokwi |
 
----
+## More firmware projects
 
-## Featured Projects
+**Drivers, scheduling & firmware updates**
 
-**[Memory Allocator in C](https://github.com/nirzor-deb-25/embedded-c-memory-allocator-)**
-Three versions of increasing sophistication: a fixed-size pool, a general-purpose heap with block splitting and coalescing, and a hardened version with calloc, realloc, aligned allocation, thread safety and corruption detection. Includes a test suite, a benchmark against the system allocator, and demos that trigger memory bugs on purpose.
+- [SPI LIS3DSH Sensor Interface](https://github.com/nirzor-deb-25/stm32_spi_lis3dsh)
+- [FreeRTOS Producer-Consumer](https://github.com/nirzor-deb-25/stm32_freertos_producer_consumer)
+- [Cooperative Scheduler](https://github.com/nirzor-deb-25/stm32_cooperative_scheduler)
+- [Ground-Up Bootloader](https://github.com/nirzor-deb-25/stm32_groundup_bootloader)
+- [UART Bootloader](https://github.com/nirzor-deb-25/stm32_uart_bootloader)
 
-**[STM32 Register-Level LED and Button](https://github.com/nirzor-deb-25/stm32_register_led_button)**
-LED patterns on the STM32F407 using direct register access, with no HAL. Button debouncing, single and double click detection, and long-press detection.
+**Bare-metal foundations**
 
-**[STM32 Makefile Project](https://github.com/nirzor-deb-25/stm32_makefile_project)**
-Multi-file STM32 C project with a handwritten Makefile, incremental builds and command-line flashing.
+- [Register-Level LED & Button Control](https://github.com/nirzor-deb-25/stm32_register_led_button) — debouncing, single/double clicks, and long-press detection without HAL.
+- [Makefile-Based STM32 Project](https://github.com/nirzor-deb-25/stm32_makefile_project) — incremental builds and command-line flashing.
+- [DMA UART Echo](https://github.com/nirzor-deb-25/stm32_dma_uart_echo)
+- [PWM LED Dimmer](https://github.com/nirzor-deb-25/stm32_pwm_led_dimmer)
+- [Smart LED Controller](https://github.com/nirzor-deb-25/stm32_smart_led_controller)
+- [STM32 Learning Collection](https://github.com/nirzor-deb-25/stm32-basic-learning) — 11 projects covering C, GPIO, interrupts, volatile, structure packing, bitfields, and keypad input.
 
----
+**Arduino & IoT**
 
-## Project Roadmap
+- [Arduino Projects](https://github.com/nirzor-deb-25/Arduino-Projects-) — Wokwi projects covering sensors, motors, displays, and embedded fundamentals.
+- [NFC-Based Attendance System](https://github.com/nirzor-deb-25/NFC-BASED-ATTENDANCE-SYSTEM)
 
-7 of 18 projects completed. Next: custom I2C/SPI driver, then a multi-task FreeRTOS sensor system.
+## Next learning goals
 
-<details>
-<summary><b>Show the full project roadmap</b></summary>
+- Build an ESP32 temperature logger that publishes sensor data over MQTT.
+- Add remote device control and visualization with Node-RED.
+- Explore Ethernet connectivity and embedded Linux on Raspberry Pi.
+- Develop a room digital twin with a focus on sensor data quality and noise handling.
 
-| # | Phase | Project | Status |
-|---|---|---|---|
-| 1 | Foundation | Custom memory allocator in C | Completed |
-| 2 | Foundation | LED blink and button patterns on STM32, register-level, no HAL | Completed |
-| 3 | Foundation | Makefile-based build system for a multi-file STM32 project | Completed |
-| 4 | MCU peripherals | PWM-based LED dimmer / motor speed control | Completed |
-| 5 | MCU peripherals | DMA-based UART echo (no CPU polling) | Completed |
-| 6 | MCU peripherals | Custom bootloader: firmware update over UART | Completed |
-| 7 | MCU peripherals | Smart LED controller: button input, PWM brightness, bootloader-flashable firmware | Completed |
-| 8 | Drivers and debugging | Custom I2C or SPI driver from scratch, no HAL | Planned |
-| 9 | Drivers and debugging | Debug and document a deliberately broken firmware (hard fault, GDB/SWD) | Planned |
-| 10 | Drivers and debugging | Full ground-up bootloader | Planned |
-| 11 | RTOS | Multi-task FreeRTOS system: I2C sensor task, LED task, UART command task (flagship) | Planned |
-| 12 | RTOS | Producer-consumer pattern with FreeRTOS queues | Planned |
-| 13 | RTOS | Minimal cooperative scheduler built from scratch | Planned |
-| 14 | Protocols and wireless | Multi-protocol sensor hub: I2C sensor, SPI device, UART reporting | Planned |
-| 15 | Protocols and wireless | ESP32 IoT temperature logger publishing to MQTT (flagship) | Planned |
-| 16 | Protocols and wireless | WiFi-enabled remote LED/relay control with a Node-RED dashboard (flagship) | Planned |
-| 17 | Embedded Linux | Cross-compile a C application for a Raspberry Pi / embedded Linux target | Planned |
-| 18 | Embedded Linux | GPIO control from Linux userspace on Raspberry Pi | Planned |
+## Let's connect
 
-</details>
+I'm interested in internship and thesis opportunities involving **embedded C, STM32 firmware, real-time systems, sensor integration, and IoT**.
 
-<details>
-<summary><b>Show the learning path</b></summary>
-
-Self-directed, using online courses alongside the projects above.
-
-- **Foundation:** C programming in depth, embedded C fundamentals
-- **MCU peripherals:** bare-metal STM32 programming, timers/PWM/CAN/low power, DMA, custom bootloader development
-- **Drivers and debugging:** ARM Cortex-M architecture, embedded driver development, bootloader from the ground up
-- **RTOS:** FreeRTOS on STM32 and ARM processors
-- **Protocols and wireless:** UART/I2C/SPI, Ethernet with HAL, WiFi, MQTT, ESP32, Node-RED
-- **Embedded Linux (partial):** fundamentals and cross-compilation
-
-</details>
-
----
-
-## Contact
-
-- Email: [nirzordeb79@gmail.com](mailto:nirzordeb79@gmail.com)
-- LinkedIn: [linkedin.com/in/nirzor-deb-opi-635846336](https://www.linkedin.com/in/nirzor-deb-opi-635846336)
+**Email:** [nirzordeb79@gmail.com](mailto:nirzordeb79@gmail.com)  
+**LinkedIn:** [Nirzor Deb Opi](https://www.linkedin.com/in/nirzor-deb-opi-635846336/)
