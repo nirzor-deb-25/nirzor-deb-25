@@ -130,4 +130,4 @@ If your team is working in these areas, I would be happy to discuss how I can co
   <a href="https://www.linkedin.com/in/nirzor-deb-opi-635846336/"><img src="./linkedin.svg" alt="Connect on LinkedIn" width="160" /></a>
 </p>
 
-<p align="center"><a href="mailto:nirzordeb79@gmail.com">nirzordeb79@gmail.com</a><br/><sub>Build. Debug. Understand.</sub></p>
+<p align="center"><br/><sub>Build. Debug. Understand.</sub></p>
