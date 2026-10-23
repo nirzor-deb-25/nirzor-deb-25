@@ -124,21 +124,21 @@ Completed courses supporting my practical work in embedded C and embedded system
 
 | Course | Provider | Completed | Certificate |
 | --- | --- | --- | --- |
-| **Microcontroller Embedded C Programming: Absolute Beginners** | Udemy · FastBit Embedded Brain Academy / Kiran Nayak | 23 October 2026 · 16.5 hours | [View credential](https://www.udemy.com/certificate/UC-1978d36f-352e-4168-b795-cf2526598547/) · [PDF](./certificates/udemy-embedded-c.pdf) |
-| **Free Embedded Systems Course** | Simplilearn SkillUp | 23 October 2026 | [PDF](./certificates/simplilearn-embedded-systems.pdf) · Certificate code: 10930187 |
+| **Microcontroller Embedded C Programming: Absolute Beginners** | Udemy · FastBit Embedded Brain Academy / Kiran Nayak | 23 October 2026 · 16.5 hours | [View credential](https://www.udemy.com/certificate/UC-1978d36f-352e-4168-b795-cf2526598547/) · [PDF](./udemy-embedded-c.pdf) |
+| **Free Embedded Systems Course** | Simplilearn SkillUp | 23 October 2026 | [PDF](./simplilearn-embedded-systems.pdf) · Certificate code: 10930187 |
 
-<details>
+<details open>
 <summary><strong>Preview my certificates</strong></summary>
 
 ### Microcontroller Embedded C Programming: Absolute Beginners
 
-<a href="./certificates/udemy-embedded-c.pdf"><img src="./certificates/udemy-embedded-c.jpg" alt="Udemy Embedded C course completion certificate awarded to Nirzor Deb Opi on 23 October 2026." width="100%" /></a>
+<a href="./udemy-embedded-c.pdf"><img src="./udemy-embedded-c.jpg" alt="Udemy Embedded C course completion certificate awarded to Nirzor Deb Opi on 23 October 2026." width="100%" /></a>
 
 Credential ID: `UC-1978d36f-352e-4168-b795-cf2526598547`
 
 ### Free Embedded Systems Course
 
-<a href="./certificates/simplilearn-embedded-systems.pdf"><img src="./certificates/simplilearn-embedded-systems.jpg" alt="Simplilearn SkillUp Embedded Systems course completion certificate awarded to Nirzor Deb Opi on 23 October 2026." width="100%" /></a>
+<a href="./simplilearn-embedded-systems.pdf"><img src="./simplilearn-embedded-systems.jpg" alt="Simplilearn SkillUp Embedded Systems course completion certificate awarded to Nirzor Deb Opi on 23 October 2026." width="100%" /></a>
 
 Certificate code: `10930187`
 
