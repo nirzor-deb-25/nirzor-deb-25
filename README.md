@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./firmware-banner.gif" alt="Nirzor Deb — Embedded Systems and IoT. Animated detailed STM32F407 Discovery board reconstruction. Open to internship and thesis opportunities in Finland." width="100%" />
+  <img src="./stm32-discovery-hero-v5.gif" alt="Nirzor Deb — Embedded Systems and IoT. Realistic 3D-rendered STM32F407 Discovery board animation. Open to internship and thesis opportunities in Finland." width="100%" />
 </p>
 
 <p align="center">
@@ -19,6 +19,8 @@ Seeking embedded software internships and thesis opportunities.</p>
 <a href="#learning-goals"><img src="./nav-learning-goals.gif" alt="Learning Goals" width="18%" /></a>
 <a href="#opportunities"><img src="./nav-opportunities.gif" alt="Contact" width="18%" /></a>
 </p>
+
+<p align="center"><a href="#certificates-and-training">🎓 Certificates &amp; Training</a></p>
 
 ---
 
@@ -41,7 +43,7 @@ Seeking embedded software internships and thesis opportunities.</p>
 </tr>
 </table>
 
-<p align="center"><img src="./about-3d.gif" alt="Animated STM32F407 Discovery board with USB connectors, pin headers, MCU, buttons, and audio jack." width="100%" /></p>
+<p align="center"><img src="./stm32-discovery-about-v5.gif" alt="Animated STM32F407 Discovery board with USB connectors, pin headers, MCU, buttons, and audio jack." width="100%" /></p>
 
 | My focus | Portfolio examples |
 | --- | --- |
@@ -52,7 +54,7 @@ Seeking embedded software internships and thesis opportunities.</p>
 <a name="tech-stack"></a>
 <h2><img src="./heading-tech-stack.gif" alt="Tech Stack" width="100%" /></h2>
 
-<p align="center"><img src="./tech-3d.gif" alt="Animated STM32F407 Discovery board alongside firmware tools and skills." width="100%" /></p>
+<p align="center"><img src="./stm32-discovery-tech-v5.gif" alt="Animated STM32F407 Discovery board alongside firmware tools and skills." width="100%" /></p>
 
 | Category | Hands-on experience |
 | --- | --- |
@@ -115,6 +117,33 @@ Seeking embedded software internships and thesis opportunities.</p>
 
 </details>
 
+<a name="certificates-and-training"></a>
+<h2><img src="./heading-certificates.gif" alt="Certificates &amp; Training" width="100%" /></h2>
+
+Completed courses supporting my practical work in embedded C and embedded systems.
+
+| Course | Provider | Completed | Certificate |
+| --- | --- | --- | --- |
+| **Microcontroller Embedded C Programming: Absolute Beginners** | Udemy · FastBit Embedded Brain Academy / Kiran Nayak | 23 October 2026 · 16.5 hours | [View credential](https://www.udemy.com/certificate/UC-1978d36f-352e-4168-b795-cf2526598547/) · [PDF](./certificates/udemy-embedded-c.pdf) |
+| **Free Embedded Systems Course** | Simplilearn SkillUp | 23 October 2026 | [PDF](./certificates/simplilearn-embedded-systems.pdf) · Certificate code: 10930187 |
+
+<details>
+<summary><strong>Preview my certificates</strong></summary>
+
+### Microcontroller Embedded C Programming: Absolute Beginners
+
+<a href="./certificates/udemy-embedded-c.pdf"><img src="./certificates/udemy-embedded-c.jpg" alt="Udemy Embedded C course completion certificate awarded to Nirzor Deb Opi on 23 October 2026." width="100%" /></a>
+
+Credential ID: `UC-1978d36f-352e-4168-b795-cf2526598547`
+
+### Free Embedded Systems Course
+
+<a href="./certificates/simplilearn-embedded-systems.pdf"><img src="./certificates/simplilearn-embedded-systems.jpg" alt="Simplilearn SkillUp Embedded Systems course completion certificate awarded to Nirzor Deb Opi on 23 October 2026." width="100%" /></a>
+
+Certificate code: `10930187`
+
+</details>
+
 <a name="learning-goals"></a>
 <h2><img src="./heading-learning-goals.gif" alt="Learning Goals" width="100%" /></h2>
 
@@ -144,6 +173,6 @@ If your team is working in these areas, I would be happy to discuss how I can co
 <details>
 <summary>Visual credits</summary>
 
-Board animation: a custom 3D reconstruction based on the STM32F407G-DISC1 layout in [STMicroelectronics UM1472](https://www.st.com/resource/en/user_manual/um1472-stm32f4-discovery-stmicroelectronics.pdf). Component placement and geometry are simplified for this portfolio; this is not a manufacturing model.
+Board animation: an AI-generated 3D product visualization based on the STM32F407 Discovery reference in [STMicroelectronics UM1472](https://www.st.com/resource/en/user_manual/um1472-stm32f4-discovery-stmicroelectronics.pdf). This is a portfolio illustration, not an exact CAD model or a technical component-placement reference.
 
 </details>
