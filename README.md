@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/stm32-3d-hero.gif" width="100%" alt="Animated conceptual 3D STM32 hardware illustration and Nirzor Deb embedded firmware portfolio banner" />
+<img src="./stm32-3d-hero.gif" width="100%" alt="Animated conceptual 3D STM32 hardware illustration and Nirzor Deb embedded firmware portfolio banner" />
 
 # Nirzor Deb
 ### Embedded Systems · Firmware Development · IoT · Embedded ML
@@ -27,7 +27,7 @@ I am currently strengthening my understanding by **revisiting implementations, r
 > **Current focus:** C proficiency · ARM Cortex-M architecture · DMA / interrupts · firmware debugging · FreeRTOS · system software fundamentals
 
 <div align="center">
-<img src="./assets/stm32-3d-workbench.gif" width="760" alt="Animated 3D conceptual STM32 hardware workbench with firmware and IoT skills" />
+<img src="./stm32-3d-workbench.gif" width="760" alt="Animated 3D conceptual STM32 hardware workbench with firmware and IoT skills" />
 <br/><sub>Illustrative AI-generated 3D artwork, not a live hardware feed or an accurate PCB CAD model.</sub>
 </div>
 
