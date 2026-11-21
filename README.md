@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/nirzor-deb-opi-635846336/"><img src="./linkedin.svg" alt="LinkedIn" width="160" /></a>
-  <a href="mailto:nirzordeb79@gmail.com"><img src="./email.svg" alt="Email" width="160" /></a>
+  <a href="mailto:nirzordeb79@gmail.com"><img src="./email-3d.svg" alt="Email" width="220" /></a>
   <a href="https://github.com/nirzor-deb-25?tab=repositories"><img src="./repos.svg" alt="Browse repositories" width="160" /></a>
 </p>
 
@@ -20,7 +20,7 @@ Open to embedded software internships and industry-connected thesis opportunitie
 <a href="#opportunities"><img src="./nav-opportunities.gif" alt="Contact" width="18%" /></a>
 </p>
 
-<p align="center"><a href="#certificates-and-training">🎓 Certificates &amp; Training</a></p>
+<p align="center"><a href="#certificates-and-training"><img src="./heading-certificates.gif" alt="Certificates and Training" width="42%" /></a></p>
 
 ---
 
@@ -80,43 +80,95 @@ Open to embedded software internships and industry-connected thesis opportunitie
 <a name="selected-projects"></a>
 <h2><img src="./heading-selected-projects.gif" alt="Selected Projects" width="100%" /></h2>
 
-A curated collection of **16 engineering projects**. Explore the repositories for implementation details, source code, and documentation. Projects are grouped by their main engineering focus.
+A curated collection of **16 engineering projects**. The project names below are clickable 3D-style buttons that open the repositories directly.
 
 ### Low-Level C & STM32 Fundamentals
 
-| Project | Engineering focus |
-| --- | --- |
-| [Custom Memory Allocator in C](https://github.com/nirzor-deb-25/embedded-c-memory-allocator-) | Memory pools, heap allocation, splitting/coalescing, and defensive memory management. |
-| [Register-Level LED & Button Control](https://github.com/nirzor-deb-25/stm32_register_led_button) | STM32 GPIO/RCC register configuration, button debouncing, and event handling without HAL. |
-| [PWM LED Dimmer](https://github.com/nirzor-deb-25/stm32_pwm_led_dimmer) | Hardware timers, prescalers, PWM output, and duty-cycle control. |
-| [DMA UART Echo](https://github.com/nirzor-deb-25/stm32_dma_uart_echo) | UART data transfers using DMA, buffer handling, and interrupt-driven firmware concepts. |
+<table>
+<tr><th align="left">Project</th><th align="left">Engineering focus</th></tr>
+<tr>
+<td><a href="https://github.com/nirzor-deb-25/embedded-c-memory-allocator-"><img src="./btn-memory-allocator.svg" alt="Custom Memory Allocator in C" width="320" /></a></td>
+<td>Memory pools, heap allocation, splitting/coalescing, and defensive memory management.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/nirzor-deb-25/stm32_register_led_button"><img src="./btn-register-led-button.svg" alt="Register-Level LED and Button Control" width="320" /></a></td>
+<td>STM32 GPIO/RCC register configuration, button debouncing, and event handling without HAL.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/nirzor-deb-25/stm32_pwm_led_dimmer"><img src="./btn-pwm-led-dimmer.svg" alt="PWM LED Dimmer" width="320" /></a></td>
+<td>Hardware timers, prescalers, PWM output, and duty-cycle control.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/nirzor-deb-25/stm32_dma_uart_echo"><img src="./btn-dma-uart-echo.svg" alt="DMA UART Echo" width="320" /></a></td>
+<td>UART data transfers using DMA, buffer handling, and interrupt-driven firmware concepts.</td>
+</tr>
+</table>
 
 ### Firmware Architecture, Drivers & Debugging
 
-| Project | Engineering focus |
-| --- | --- |
-| [UART Firmware Bootloader](https://github.com/nirzor-deb-25/stm32_uart_bootloader) | Firmware loading over UART, flash programming, memory maps, and application startup. |
-| [SPI LIS3DSH Sensor Driver](https://github.com/nirzor-deb-25/stm32_spi_lis3dsh) | STM32 SPI peripheral communication and accelerometer register access. |
-| [Cortex-M4 HardFault Debugging](https://github.com/nirzor-deb-25/stm32_hardfault_debug) | Exception-context investigation, GDB/SWD debugging, and a documented alignment-safe fix. |
-| [FreeRTOS Sensor System](https://github.com/nirzor-deb-25/stm32_freertos_sensor_system) | Sensor acquisition, real-time task organization, and FreeRTOS scheduling. |
+<table>
+<tr><th align="left">Project</th><th align="left">Engineering focus</th></tr>
+<tr>
+<td><a href="https://github.com/nirzor-deb-25/stm32_uart_bootloader"><img src="./btn-uart-bootloader.svg" alt="UART Firmware Bootloader" width="320" /></a></td>
+<td>Firmware loading over UART, flash programming, memory maps, and application startup.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/nirzor-deb-25/stm32_spi_lis3dsh"><img src="./btn-spi-lis3dsh.svg" alt="SPI LIS3DSH Sensor Driver" width="320" /></a></td>
+<td>STM32 SPI peripheral communication and accelerometer register access.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/nirzor-deb-25/stm32_hardfault_debug"><img src="./btn-hardfault-debug.svg" alt="Cortex-M4 HardFault Debugging" width="320" /></a></td>
+<td>Exception-context investigation, GDB/SWD debugging, and a documented alignment-safe fix.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/nirzor-deb-25/stm32_freertos_sensor_system"><img src="./btn-freertos-sensor-system.svg" alt="FreeRTOS Sensor System" width="320" /></a></td>
+<td>Sensor acquisition, real-time task organization, and FreeRTOS scheduling.</td>
+</tr>
+</table>
 
 ### Connected Devices & IoT
 
-| Project | Engineering focus |
-| --- | --- |
-| [Arduino Projects — Wokwi Simulations](https://github.com/nirzor-deb-25/Arduino-Projects-) | Simulated circuits and microcontroller exercises using sensors, motors, and displays. |
-| [NFC-Based Attendance System](https://github.com/nirzor-deb-25/NFC-BASED-ATTENDANCE-SYSTEM) | NFC-based student identification and attendance-recording system design. |
-| [TwinTrust — Sensor Data Quality](https://github.com/nirzor-deb-25/twintrust-project) | Sensor-data quality checks and monitoring workflows for more trustworthy readings. |
+<table>
+<tr><th align="left">Project</th><th align="left">Engineering focus</th></tr>
+<tr>
+<td><a href="https://github.com/nirzor-deb-25/Arduino-Projects-"><img src="./btn-arduino-projects.svg" alt="Arduino Projects — Wokwi Simulations" width="320" /></a></td>
+<td>Simulated circuits and microcontroller exercises using sensors, motors, and displays.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/nirzor-deb-25/NFC-BASED-ATTENDANCE-SYSTEM"><img src="./btn-nfc-attendance.svg" alt="NFC-Based Attendance System" width="320" /></a></td>
+<td>NFC-based student identification and attendance-recording system design.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/nirzor-deb-25/twintrust-project"><img src="./btn-twintrust.svg" alt="TwinTrust — Sensor Data Quality" width="320" /></a></td>
+<td>Sensor-data quality checks and monitoring workflows for more trustworthy readings.</td>
+</tr>
+</table>
 
 ### Embedded Machine Learning & Intelligent Power Systems
 
-| Project | Engineering focus |
-| --- | --- |
-| [STM32 MotionSense](https://github.com/nirzor-deb-25/stm32-motionsense) | Motion classification with STM32 firmware, Python-based training, and deployment verification. |
-| [STM32 MachineGuard Lite](https://github.com/nirzor-deb-25/stm32-machineguard-lite) | Sensor/vibration anomaly-detection prototype on STM32. |
-| [STM32 ThermalPredict](https://github.com/nirzor-deb-25/stm32-thermalpredict) | BME280 temperature measurements, ridge-regression forecasting, and embedded verification. |
-| [BoostConverterML](https://github.com/nirzor-deb-25/BoostConverterML) | Simulated boost-converter data and machine-learning-assisted estimation experiments. |
-| [STM32 EV Climbing Power ML](https://github.com/nirzor-deb-25/STM32-EV-Climbing-Power-ML) | Electric-vehicle climbing-power estimation using modeled conditions and synthetic acceleration inputs. |
+<table>
+<tr><th align="left">Project</th><th align="left">Engineering focus</th></tr>
+<tr>
+<td><a href="https://github.com/nirzor-deb-25/stm32-motionsense"><img src="./btn-motionsense.svg" alt="STM32 MotionSense" width="320" /></a></td>
+<td>Motion classification with STM32 firmware, Python-based training, and deployment verification.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/nirzor-deb-25/stm32-machineguard-lite"><img src="./btn-machineguard-lite.svg" alt="STM32 MachineGuard Lite" width="320" /></a></td>
+<td>Sensor/vibration anomaly-detection prototype on STM32.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/nirzor-deb-25/stm32-thermalpredict"><img src="./btn-thermalpredict.svg" alt="STM32 ThermalPredict" width="320" /></a></td>
+<td>BME280 temperature measurements, ridge-regression forecasting, and embedded verification.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/nirzor-deb-25/BoostConverterML"><img src="./btn-boostconverterml.svg" alt="BoostConverterML" width="320" /></a></td>
+<td>Simulated boost-converter data and machine-learning-assisted estimation experiments.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/nirzor-deb-25/STM32-EV-Climbing-Power-ML"><img src="./btn-ev-climbing-power-ml.svg" alt="STM32 EV Climbing Power ML" width="320" /></a></td>
+<td>Electric-vehicle climbing-power estimation using modeled conditions and synthetic acceleration inputs.</td>
+</tr>
+</table>
 
 > **Engineering approach:** I use development tools, documentation, and AI-assisted guidance where helpful, then work toward validating behavior, understanding the code, and rebuilding important features independently. Hardware tests, simulations, and model-based results should be interpreted according to the evidence in each repository.
 
@@ -167,7 +219,7 @@ I am seeking an **embedded software / embedded systems internship or thesis oppo
 If your team is working in these areas, I would be happy to discuss how I can contribute and learn.
 
 <p align="center">
-  <a href="mailto:nirzordeb79@gmail.com"><img src="./email.svg" alt="Email Nirzor" width="160" /></a>
+  <a href="mailto:nirzordeb79@gmail.com"><img src="./email-3d.svg" alt="Email Nirzor" width="220" /></a>
   <a href="https://www.linkedin.com/in/nirzor-deb-opi-635846336/"><img src="./linkedin.svg" alt="Connect on LinkedIn" width="160" /></a>
 </p>
 
