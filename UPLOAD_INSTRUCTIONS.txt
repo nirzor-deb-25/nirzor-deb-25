@@ -1,0 +1,5 @@
+GITHUB PROFILE UPDATE
+
+Upload README.md and all SVG files in this folder directly to the ROOT of the nirzor-deb-25/nirzor-deb-25 repository. Choose Add file > Upload files, select the files (not their parent folder), and commit. Keep your existing GIF, JPG and PDF files. If README.md has changed since this package was prepared, back it up before replacement.
+
+The 16 project badges have no extra PROJECT label, and the three social buttons have matching visual styling and size.
