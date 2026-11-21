@@ -1,178 +1,124 @@
-<p align="center">
-  <img src="./stm32-discovery-hero-v5.gif" alt="Nirzor Deb — Embedded Systems and IoT. Realistic 3D-rendered STM32F407 Discovery board animation. Open to internship and thesis opportunities in Finland." width="100%" />
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/nirzor-deb-opi-635846336/"><img src="./linkedin.svg" alt="LinkedIn" width="160" /></a>
-  <a href="mailto:nirzordeb79@gmail.com"><img src="./email.svg" alt="Email" width="160" /></a>
-  <a href="https://github.com/nirzor-deb-25?tab=repositories"><img src="./repos.svg" alt="Browse repositories" width="160" /></a>
-</p>
+<img src="./assets/stm32-3d-hero.gif" width="100%" alt="Animated conceptual 3D STM32 hardware illustration and Nirzor Deb embedded firmware portfolio banner" />
 
-<p align="center"><strong>STM32 firmware · Bare-metal C · Real-time systems · Embedded ML</strong><br/>
-Industrial Information Technology student at LAB University of Applied Sciences, Finland.<br/>
-Seeking embedded software internships and thesis opportunities.</p>
+# Nirzor Deb
+### Embedded Systems · Firmware Development · IoT · Embedded ML
 
-<p align="center">
-<a href="#about"><img src="./nav-about.gif" alt="About" width="18%" /></a>
-<a href="#tech-stack"><img src="./nav-tech-stack.gif" alt="Tech Stack" width="18%" /></a>
-<a href="#selected-projects"><img src="./nav-selected-projects.gif" alt="Projects" width="18%" /></a>
-<a href="#learning-goals"><img src="./nav-learning-goals.gif" alt="Learning Goals" width="18%" /></a>
-<a href="#opportunities"><img src="./nav-opportunities.gif" alt="Contact" width="18%" /></a>
-</p>
+**Build. Debug. Understand.**
 
-<p align="center"><a href="#certificates-and-training">🎓 Certificates &amp; Training</a></p>
+Industrial Information Technology student at **LAB University of Applied Sciences, Finland**  
+Interested in **embedded software internships, firmware engineering, and industry-connected bachelor's thesis opportunities**.
+
+[**Portfolio website**](https://nirzor-deb-25.github.io/) · [**GitHub repositories**](https://github.com/nirzor-deb-25?tab=repositories) · [**LinkedIn**](https://www.linkedin.com/in/nirzor-deb-opi-635846336/) · [**Email**](mailto:nirzordeb79@gmail.com)
+
+**C / Embedded C** · **STM32 / ARM Cortex-M4** · **Bare-Metal** · **DMA** · **FreeRTOS** · **GDB / SWD** · **IoT**
+
+</div>
 
 ---
 
-<a name="about"></a>
-<h2><img src="./heading-about.gif" alt="About" width="100%" /></h2>
+## About me
 
-<table>
-<tr>
-<td width="35%" align="center" valign="middle">
-<img src="./portrait-hologram.gif" alt="Animated neon-green holographic portrait of Nirzor, based on his illustrated photo." width="280" /><br/>
-<strong>NIRZOR DEB</strong><br/>
-<sub>Embedded Systems &amp; IoT · Finland</sub>
-</td>
-<td width="65%" valign="middle">
-<p>I am an engineering student at <strong>LAB University of Applied Sciences, Finland</strong>, focused on <strong>Embedded Systems and IoT</strong>.</p>
-<p>I build practical projects with C and STM32 to understand how firmware, hardware, and sensor data work together.</p>
-<p>My portfolio covers bare-metal firmware, memory management, bootloaders, FreeRTOS, and Cortex-M4 debugging. My recent projects connect Python model training with embedded C deployment for motion classification and temperature forecasting.</p>
-<p><strong>Seeking internship and thesis opportunities in Finland.</strong></p>
-</td>
-</tr>
-</table>
+I am an engineering student developing a foundation in **hardware-aware software**: embedded C, STM32 peripheral programming, firmware initialization, real-time scheduling, and debugging. My selected projects range from register-level GPIO and DMA transfers to bootloaders, sensor interfaces, and embedded machine-learning prototypes.
 
-<p align="center"><img src="./stm32-discovery-about-v5.gif" alt="Animated STM32F407 Discovery board with USB connectors, pin headers, MCU, buttons, and audio jack." width="100%" /></p>
+I am currently strengthening my understanding by **revisiting implementations, rebuilding key features independently, and improving testing and documentation**. I am particularly interested in low-level firmware, system initialization, power-aware embedded design, and reliable software for connected devices.
 
-| My focus | Portfolio examples |
-| --- | --- |
-| Understand the hardware | Direct register access, GPIO, timers, UART, DMA, and SPI sensor interfacing |
-| Investigate firmware behavior | GDB/SWD fault investigation, captured exception context, and allocator tests |
-| Build toward intelligent devices | Sensor integration, real-time projects, and on-device machine learning |
+> **Current focus:** C proficiency · ARM Cortex-M architecture · DMA / interrupts · firmware debugging · FreeRTOS · system software fundamentals
 
-<a name="tech-stack"></a>
-<h2><img src="./heading-tech-stack.gif" alt="Tech Stack" width="100%" /></h2>
+<div align="center">
+<img src="./assets/stm32-3d-workbench.gif" width="760" alt="Animated 3D conceptual STM32 hardware workbench with firmware and IoT skills" />
+<br/><sub>Illustrative AI-generated 3D artwork, not a live hardware feed or an accurate PCB CAD model.</sub>
+</div>
 
-<p align="center"><img src="./stm32-discovery-tech-v5.gif" alt="Animated STM32F407 Discovery board alongside firmware tools and skills." width="100%" /></p>
+## Technical toolkit
 
-| Category | Hands-on experience |
-| --- | --- |
-| **Programming** | C, Embedded C, C++ for Arduino; Python for ML training workflows |
-| **Microcontroller** | STM32F407 / ARM Cortex-M4; register-level programming without HAL |
-| **Peripherals** | GPIO, interrupts, timers/PWM, UART, DMA, SPI sensor interfacing |
-| **Real-time firmware** | FreeRTOS projects, producer-consumer patterns, cooperative scheduling |
-| **Boot & build** | UART firmware updates, bootloader projects, Makefiles, arm-none-eabi-gcc |
-| **Debugging** | ST-LINK, SWD, GDB, Cortex-M4 HardFault investigation |
-| **Memory management** | Pool/heap allocators, splitting/coalescing, corruption detection, testing |
-| **Embedded ML** | Motion classification, ridge-regression forecasting, on-device verification |
-| **Development tools** | STM32CubeIDE, Git, GitHub, Wokwi |
+| Area | Technologies and topics explored |
+| :-- | :-- |
+| **Languages** | C, Embedded C; C++ in Arduino projects; Python in ML workflows |
+| **Microcontrollers** | STM32F407 / ARM Cortex-M4, ESP32, Arduino |
+| **Firmware** | Register-level GPIO, clocks, timers/PWM, UART, DMA, SPI, interrupts, bootloaders |
+| **Real-time systems** | FreeRTOS tasks, scheduling and sensor acquisition |
+| **Debugging & build** | ST-LINK, SWD, GDB, STM32CubeIDE, GCC, Make, Git |
+| **Connected systems** | NFC attendance concepts, sensors, IoT workflows, Wokwi simulations |
+| **Embedded intelligence** | Sensor classification, anomaly detection, model-based estimation and forecasting |
 
-<details>
-<summary><strong>Hardware available for further projects</strong></summary>
+## Selected engineering projects — 16
 
-- STM32F407G-DISC1 and NUCLEO-F439ZI.
-- ESP32 development boards and Arduino Uno.
-- Raspberry Pi 3B+ and Olimex MOD-BME280 sensor module.
+These projects are grouped by engineering discipline. Repository links open the source and available documentation; **simulation results and prototypes are not presented as production-validated hardware**.
 
-</details>
+### 01 · Embedded C and microcontroller foundations
 
-<a name="selected-projects"></a>
-<h2><img src="./heading-selected-projects.gif" alt="Selected Projects" width="100%" /></h2>
+| Project | Engineering focus |
+| :-- | :-- |
+| [**Custom Memory Allocator in C**](https://github.com/nirzor-deb-25/embedded-c-memory-allocator-) | Pool allocation, heap management, splitting/coalescing, allocation safety and testing |
+| [**Register-Level LED & Button Control**](https://github.com/nirzor-deb-25/stm32_register_led_button) | STM32 GPIO, RCC, memory-mapped registers, button events and debouncing |
+| [**PWM LED Dimmer**](https://github.com/nirzor-deb-25/stm32_pwm_led_dimmer) | Hardware timers, prescalers and PWM generation |
+| [**DMA UART Echo**](https://github.com/nirzor-deb-25/stm32_dma_uart_echo) | UART peripheral communication, DMA configuration and data buffers |
 
-| Project | Focus | What to explore |
-| --- | --- | --- |
-| [STM32 MotionSense](https://github.com/nirzor-deb-25/stm32-motionsense) | Bare-metal firmware & embedded ML | Motion classification on STM32, Python training, and deployment verification. |
-| [STM32 ThermalPredict](https://github.com/nirzor-deb-25/stm32-thermalpredict) | Sensor data & forecasting | BME280 temperature measurements, ridge regression, and on-device verification. |
-| [Memory Allocators in C](https://github.com/nirzor-deb-25/embedded-c-memory-allocator-) | Memory management | Fixed-size pools, heap splitting/coalescing, and a hardened allocator with tests and benchmarks. |
-| [STM32 HardFault Debugging](https://github.com/nirzor-deb-25/stm32_hardfault_debug) | Cortex-M4 debugging | GDB/SWD investigation, captured exception context, and a verified alignment-safe fix. |
-| [STM32 FreeRTOS Sensor System](https://github.com/nirzor-deb-25/stm32_freertos_sensor_system) | Real-time firmware | A sensor-system project exploring FreeRTOS on STM32. |
-| [STM32 Multi-Protocol Sensor Hub](https://github.com/nirzor-deb-25/stm32_multiprotocol_sensor_hub) | Sensor interfaces | A sensor-hub project exploring multiple communication interfaces on STM32. |
+### 02 · Firmware architecture, drivers and debugging
 
-<details>
+| Project | Engineering focus |
+| :-- | :-- |
+| [**UART Firmware Bootloader**](https://github.com/nirzor-deb-25/stm32_uart_bootloader) | Firmware update flow, flash memory, vector tables and application handoff |
+| [**SPI LIS3DSH Sensor Driver**](https://github.com/nirzor-deb-25/stm32_spi_lis3dsh) | SPI peripheral transactions and accelerometer interfacing |
+| [**Cortex-M4 HardFault Debugging**](https://github.com/nirzor-deb-25/stm32_hardfault_debug) | Exception context, fault investigation and GDB/SWD debugging |
+| [**FreeRTOS Sensor System**](https://github.com/nirzor-deb-25/stm32_freertos_sensor_system) | Tasks, sensor sampling and real-time firmware design |
 
-<summary><strong>Explore the rest of my firmware projects</strong></summary>
+### 03 · IoT and connected systems
 
-**Drivers, scheduling & firmware updates**
+| Project | Engineering focus |
+| :-- | :-- |
+| [**Arduino Projects — Wokwi Simulations**](https://github.com/nirzor-deb-25/Arduino-Projects-) | Simulated sensors, actuators, displays and microcontroller fundamentals |
+| [**NFC-Based Attendance System**](https://github.com/nirzor-deb-25/NFC-BASED-ATTENDANCE-SYSTEM) | NFC identification and attendance tracking architecture |
+| [**TwinTrust — Sensor Data Quality**](https://github.com/nirzor-deb-25/twintrust-project) | Environmental sensor data checks, filtering and monitoring prototype |
 
-- [SPI LIS3DSH Sensor Interface](https://github.com/nirzor-deb-25/stm32_spi_lis3dsh)
-- [FreeRTOS Producer-Consumer](https://github.com/nirzor-deb-25/stm32_freertos_producer_consumer)
-- [Cooperative Scheduler](https://github.com/nirzor-deb-25/stm32_cooperative_scheduler)
-- [Ground-Up Bootloader](https://github.com/nirzor-deb-25/stm32_groundup_bootloader)
-- [UART Bootloader](https://github.com/nirzor-deb-25/stm32_uart_bootloader)
+### 04 · Embedded ML, sensing and intelligent power systems
 
-**Bare-metal foundations**
+| Project | Engineering focus |
+| :-- | :-- |
+| [**STM32 MotionSense**](https://github.com/nirzor-deb-25/stm32-motionsense) | Motion classification and embedded inference workflow |
+| [**STM32 MachineGuard Lite**](https://github.com/nirzor-deb-25/stm32-machineguard-lite) | Vibration-based anomaly detection prototype |
+| [**STM32 ThermalPredict**](https://github.com/nirzor-deb-25/stm32-thermalpredict) | BME280 temperature data, ridge-regression forecasting and on-device verification |
+| [**BoostConverterML**](https://github.com/nirzor-deb-25/BoostConverterML) | ML-assisted power-converter analysis using simulated data |
+| [**STM32-EV-Climbing-Power-ML**](https://github.com/nirzor-deb-25/STM32-EV-Climbing-Power-ML) | EV climbing-power estimation based on synthetic motion inputs |
 
-- [Register-Level LED & Button Control](https://github.com/nirzor-deb-25/stm32_register_led_button) — debouncing, single/double clicks, and long-press detection without HAL.
-- [Makefile-Based STM32 Project](https://github.com/nirzor-deb-25/stm32_makefile_project) — incremental builds and command-line flashing.
-- [DMA UART Echo](https://github.com/nirzor-deb-25/stm32_dma_uart_echo)
-- [PWM LED Dimmer](https://github.com/nirzor-deb-25/stm32_pwm_led_dimmer)
-- [Smart LED Controller](https://github.com/nirzor-deb-25/stm32_smart_led_controller)
-- [STM32 Learning Collection](https://github.com/nirzor-deb-25/stm32-basic-learning) — 11 projects covering C, GPIO, interrupts, volatile, structure packing, bitfields, and keypad input.
+**See the project gallery:** [nirzor-deb-25.github.io/projects.html](https://nirzor-deb-25.github.io/projects.html)
 
-**Arduino & IoT**
+## Engineering interests
 
-- [Arduino Projects](https://github.com/nirzor-deb-25/Arduino-Projects-) — Wokwi projects covering sensors, motors, displays, and embedded fundamentals.
-- [NFC-Based Attendance System](https://github.com/nirzor-deb-25/NFC-BASED-ATTENDANCE-SYSTEM)
+I am especially interested in engineering teams working on **low-level firmware, embedded C, MCU/SoC initialization, system control, hardware/software interfaces, sensor systems, and embedded reliability**.
 
-</details>
+My current technical learning priorities are:
 
-<a name="certificates-and-training"></a>
-<h2><img src="./heading-certificates.gif" alt="Certificates &amp; Training" width="100%" /></h2>
+1. **C and firmware fundamentals:** pointers, memory safety, bitwise operations and register-level code.
+2. **Processor and peripheral architecture:** ARM Cortex-M, interrupts, DMA, clocks and memory maps.
+3. **Reliability and debugging:** faults, watchdogs, startup, GDB and evidence-based validation.
+4. **Real-time firmware:** FreeRTOS, synchronization and deterministic timing.
+5. **Systems expansion:** basic C++, Embedded Linux, networking and power-aware design.
 
-Completed courses supporting my practical work in embedded C and embedded systems.
+## Learning and certificates
 
-| Course | Provider | Completed | Certificate |
-| --- | --- | --- | --- |
-| **Microcontroller Embedded C Programming: Absolute Beginners** | Udemy · FastBit Embedded Brain Academy / Kiran Nayak | 23 October 2026 · 16.5 hours | [View credential](https://www.udemy.com/certificate/UC-1978d36f-352e-4168-b795-cf2526598547/) · [PDF](./udemy-embedded-c.pdf) |
-| **Free Embedded Systems Course** | Simplilearn SkillUp | 23 October 2026 | [PDF](./simplilearn-embedded-systems.pdf) · Certificate code: 10930187 |
+- **Microcontroller Embedded C Programming: Absolute Beginners** — FastBit / Udemy, completed October 2026. [Credential](https://www.udemy.com/certificate/UC-1978d36f-352e-4168-b795-cf2526598547/)
+- **Free Embedded Systems Course** — Simplilearn SkillUp, completed October 2026.
 
-<details open>
-<summary><strong>Preview my certificates</strong></summary>
+I complement coursework with practical experiments, datasheets, reference manuals, project documentation and code-review exercises.
 
-### Microcontroller Embedded C Programming: Absolute Beginners
+## Opportunities and contact
 
-<a href="./udemy-embedded-c.pdf"><img src="./udemy-embedded-c.jpg" alt="Udemy Embedded C course completion certificate awarded to Nirzor Deb Opi on 23 October 2026." width="100%" /></a>
+I am interested in **embedded systems / firmware internships** and **company-supervised bachelor's thesis opportunities in Finland**. I would welcome conversations about junior-level work involving embedded C, STM32, debugging, sensors, real-time software, and industrial IoT.
 
-Credential ID: `UC-1978d36f-352e-4168-b795-cf2526598547`
+<div align="center">
 
-### Free Embedded Systems Course
+[**Portfolio**](https://nirzor-deb-25.github.io/) · [**Projects**](https://github.com/nirzor-deb-25?tab=repositories) · [**LinkedIn**](https://www.linkedin.com/in/nirzor-deb-opi-635846336/) · **[Email me](mailto:nirzordeb79@gmail.com)**
 
-<a href="./simplilearn-embedded-systems.pdf"><img src="./simplilearn-embedded-systems.jpg" alt="Simplilearn SkillUp Embedded Systems course completion certificate awarded to Nirzor Deb Opi on 23 October 2026." width="100%" /></a>
+<sub>Build. Debug. Understand.</sub>
 
-Certificate code: `10930187`
-
-</details>
-
-<a name="learning-goals"></a>
-<h2><img src="./heading-learning-goals.gif" alt="Learning Goals" width="100%" /></h2>
-
-These are the next areas I want to develop through practical projects.
-
-| Direction | Next project goal |
-| --- | --- |
-| **Connected devices** | Publish ESP32 sensor measurements over MQTT |
-| **Visualization & control** | Create a Node-RED dashboard for remote device control |
-| **Embedded Linux** | Cross-compile C applications and explore Raspberry Pi GPIO |
-| **Data quality** | Build a room digital twin with sensor noise handling and quality checks |
-
-<a name="opportunities"></a>
-<h2><img src="./heading-opportunities.gif" alt="Opportunities" width="100%" /></h2>
-
-I am seeking an **embedded software / embedded systems internship or thesis opportunity in Finland**. My interests include embedded C, STM32 firmware, sensor integration, real-time systems, and IoT.
-
-If your team is working in these areas, I would be happy to discuss how I can contribute and learn.
-
-<p align="center">
-  <a href="mailto:nirzordeb79@gmail.com"><img src="./email.svg" alt="Email Nirzor" width="160" /></a>
-  <a href="https://www.linkedin.com/in/nirzor-deb-opi-635846336/"><img src="./linkedin.svg" alt="Connect on LinkedIn" width="160" /></a>
-</p>
-
-<p align="center"><a href="mailto:nirzordeb79@gmail.com">nirzordeb79@gmail.com</a><br/><sub>Build. Debug. Understand.</sub></p>
+</div>
 
 <details>
-<summary>Visual credits</summary>
+<summary><strong>Visual notes and accessibility</strong></summary>
 
-Board animation: an AI-generated 3D product visualization based on the STM32F407 Discovery reference in [STMicroelectronics UM1472](https://www.st.com/resource/en/user_manual/um1472-stm32f4-discovery-stmicroelectronics.pdf). This is a portfolio illustration, not an exact CAD model or a technical component-placement reference.
+The two animated hardware visuals are AI-generated conceptual illustrations inspired by STM32 development boards, not CAD representations, device captures, or performance evidence. They are included as local GIF assets for GitHub README compatibility. Motion-sensitive visitors can disable animated image playback using browser or system accessibility controls. [STM32F4 Discovery user manual (STMicroelectronics)](https://www.st.com/resource/en/user_manual/um1472-stm32f4-discovery-stmicroelectronics.pdf).
 
 </details>
