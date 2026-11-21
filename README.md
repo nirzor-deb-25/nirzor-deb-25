@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nirzor-deb-opi-635846336/"><img src="./linkedin.svg" alt="LinkedIn" width="160" /></a>
-  <a href="mailto:nirzordeb79@gmail.com"><img src="./email-3d.svg" alt="Email" width="220" /></a>
-  <a href="https://github.com/nirzor-deb-25?tab=repositories"><img src="./repos.svg" alt="Browse repositories" width="160" /></a>
+  <a href="https://www.linkedin.com/in/nirzor-deb-opi-635846336/"><img src="./linkedin-3d.svg" alt="LinkedIn" width="160" /></a>
+  <a href="mailto:nirzordeb79@gmail.com"><img src="./email-3d.svg" alt="Email" width="160" /></a>
+  <a href="https://github.com/nirzor-deb-25?tab=repositories"><img src="./repos-3d.svg" alt="Browse repositories" width="160" /></a>
 </p>
 
 <p align="center"><strong>Embedded C · STM32 Firmware · ARM Cortex-M · FreeRTOS · IoT · Embedded ML</strong><br/>
@@ -219,8 +219,8 @@ I am seeking an **embedded software / embedded systems internship or thesis oppo
 If your team is working in these areas, I would be happy to discuss how I can contribute and learn.
 
 <p align="center">
-  <a href="mailto:nirzordeb79@gmail.com"><img src="./email-3d.svg" alt="Email Nirzor" width="220" /></a>
-  <a href="https://www.linkedin.com/in/nirzor-deb-opi-635846336/"><img src="./linkedin.svg" alt="Connect on LinkedIn" width="160" /></a>
+  <a href="mailto:nirzordeb79@gmail.com"><img src="./email-3d.svg" alt="Email Nirzor" width="160" /></a>
+  <a href="https://www.linkedin.com/in/nirzor-deb-opi-635846336/"><img src="./linkedin-3d.svg" alt="Connect on LinkedIn" width="160" /></a>
 </p>
 
 <p align="center"><a href="mailto:nirzordeb79@gmail.com">nirzordeb79@gmail.com</a><br/><sub>Build. Debug. Understand.</sub></p>
